@@ -1,0 +1,94 @@
+
+.contact-information {
+	padding: 10px;
+	padding-top: 0;
+	margin-bottom: 30px;
+	border-bottom: 1px solid #DE423A;
+}
+.contact-information .column_title {
+	font-family: 'Pacifico', cursive;
+	font-weight: 100;
+}
+.contact-information .icon-telefono {
+	font-size: 1.3em;
+	margin-right: 7px;
+	position: relative;
+	top: 5px;
+}
+.contact-information .icon-ubicacion {
+	font-size: 1.3em;
+	margin-right: 7px;
+	position: relative;
+	top: 5px;
+}
+.contact-information .icon-mail {
+	font-size: 1.3em;
+	margin-right: 7px;
+	position: relative;
+	top: 5px;
+}
+.contact-information .social-icon {
+	justify-content: flex-start;
+	margin-bottom: 10px;
+}
+.contact-information .social-icon .icon-facebook {
+	background: black;
+	color: white;
+	margin-left: 0;
+	margin-right: 15px;
+}
+.contact-information .social-icon .icon-mail {
+	background: black;
+	color: white;
+	margin-left: 0;
+	margin-right: 15px;
+}
+.contact-information .social-icon .icon-telefono {
+	background: black;
+	color: white;
+	margin-left: 0;
+	margin-right: 15px;
+}
+.formulario {
+	padding: 10px;
+	padding-top: 0;
+}
+.formulario_label, .formulario_input-txt, .formulario_textarea {
+	display: block;
+	width: 100%;
+}
+.formulario_input-txt {
+	padding: 10px;
+	margin-bottom: 10px;
+}
+.formulario_textarea {
+	min-height: 100px; /*alto minimo*/
+	min-width: 100%; /*ancho minimo*/
+	max-width: 100%;
+	max-height: 200px;
+}
+.formulario_btn {
+	border: none;
+	cursor: pointer;
+	font-size: 1em;
+}
+@media screen and (min-width: 480px) {
+	.contact .container-flex {
+	align-items: flex-start;
+}
+	.contact-information p {
+		font-size: .75em;
+	}
+	.contact-information {
+		border-right: 1px solid #DE423A;
+		border-bottom: none;
+	}
+}
+@media screen and (min-width: 768px) {
+	.contact-information p {
+		font-size: 1em;
+	}
+	.contact-information .column_title {
+		font-size: 1.5em;
+	}
+}
